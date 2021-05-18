@@ -1,12 +1,12 @@
 .flex-container {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: flex-start;
 
 }
 .inline-flex-container {
     display: inline-flex;
-    flex-flow: row wrap;
+    flex-flow: column wrap;
     justify-content: flex-start;
 
 
@@ -23,6 +23,18 @@
     padding: 20px;
     font-size: 30px;
 }
+.ind1{
+    background-color: gray;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
+.ind2{
+    
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+}
 .inline-flex-container>div{
     background-color: lightgray;
     margin: 20px;
@@ -31,12 +43,14 @@
 }
 .d1{
     order: 1;
-    flex-basis: 200px;
+    flex-grow: 1;
 
 }
 .d2{
     order: 3;
-    flex-basis: 400px;
+    flex-grow: 3;
+
+    
 }
 .d3{
     order: 2;
