@@ -29,3 +29,12 @@
     padding: 10px;
     font-size: 25x;
 }
+.d1{
+    order: 1;
+}
+.d2{
+    order: 3;
+}
+.d3{
+    order: 2;
+}
